@@ -1,18 +1,23 @@
+
+
 import React from 'react'
 
-const Dashboard = () => {
-  
- 
-  
-  
+
+function Dashboard() {
+
+
+
     return (
         <div>
-            <div>
-      
-        <button    className="btn btn-primary" >logout</button>
-      </div>
+           <button 
+            type="submit" 
+            className="btn btn-primary">   Create logo</button>
+            
+    
+ 
         </div>
     )
 }
 
 export default Dashboard
+

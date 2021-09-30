@@ -23,7 +23,7 @@ const RegistrationForm = ({onAdd}) => {
   onAdd({username, password})
   setUsername('')
   setPassword('')
- 
+  
     }
 
 
@@ -64,7 +64,7 @@ const RegistrationForm = ({onAdd}) => {
                 </button>
                 <div className="registerMessage">
             <span> Have an account? </span>
-            < Link to="/" >Login</Link> 
+            < Link to="/login" >Login</Link> 
         </div>
             </form>
         </div>
